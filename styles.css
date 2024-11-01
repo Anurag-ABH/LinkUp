@@ -1,4 +1,7 @@
-/* styles.css */
+*{
+    padding: 0px;
+    margin: 0px;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -12,12 +15,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px 20px 20px;
-    background-color: #00000000;
-}
-
-.logo img {
     height: 80px;
+    padding: 20px;
+    background-color: #000000;
+}
+div{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
 }
 
 nav ul {
@@ -46,7 +55,7 @@ nav a {
 }
 
 .hero {
-    background-image: url('home page-10.svg'); 
+    background-image: url('LinkUp-Home-Page/home\ page-10.svg'); 
     background-size: cover;
     background-position: center;
     text-align: center;
